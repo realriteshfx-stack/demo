@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sancheti Healthcare Academy — Share Your Experience</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Arial, sans-serif;
+      background: #f4f5f7;
+      color: #111827;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 430px;
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 36px 25px 30px;
+      text-align: center;
+      box-shadow: 0 15px 50px rgba(0,0,0,0.08);
+    }
+
+    .logo {
+      width: 86px;
+      height: 86px;
+      border-radius: 50%;
+      object-fit: contain;
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      padding: 8px;
+      margin-bottom: 20px;
+    }
+
+    .brand {
+      font-size: 24px;
+      font-weight: 750;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+    }
+
+    .location {
+      margin-top: 7px;
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .divider {
+      height: 1px;
+      background: #eeeeee;
+      margin: 28px 0;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .description {
+      margin-top: 10px;
+      color: #6b7280;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .stars {
+      font-size: 34px;
+      letter-spacing: 4px;
+      margin: 22px 0;
+    }
+
+    .review-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      width: 100%;
+      min-height: 56px;
+
+      background: #111827;
+      color: white;
+
+      text-decoration: none;
+      border-radius: 15px;
+
+      font-size: 16px;
+      font-weight: 700;
+
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .review-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .google-icon {
+      width: 21px;
+      height: 21px;
+      background: white;
+      color: #111827;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .note {
+      margin-top: 16px;
+      font-size: 12px;
+      color: #9ca3af;
+      line-height: 1.5;
+    }
+
+    .footer {
+      margin-top: 27px;
+      font-size: 11px;
+      color: #b0b4ba;
+    }
+
+    @media (max-width: 380px) {
+      .card {
+        padding: 30px 20px 25px;
+      }
+
+      .brand {
+        font-size: 21px;
+      }
+
+      .title {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="card">
+
+    <!-- Replace this with the real Sancheti logo later -->
+    <img
+      class="logo"
+      src="https://via.placeholder.com/200"
+      alt="Sancheti Logo"
+    >
+
+    <h1 class="brand">
+      Sancheti Healthcare Academy
+    </h1>
+
+    <p class="location">
+      Pune, Maharashtra
+    </p>
+
+    <div class="divider"></div>
+
+    <h2 class="title">
+      How was your experience?
+    </h2>
+
+    <p class="description">
+      We value your feedback. If you have a moment,
+      please share your experience with us on Google.
+    </p>
+
+    <div class="stars">
+      ★★★★★
+    </div>
+
+    <!-- GOOGLE REVIEW LINK -->
+    <a
+      class="review-button"
+      href="https://search.google.com/local/writereview?placeid=ChIJNdHJzHS_wjsR3zYBxQbA-Vg"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span class="google-icon">G</span>
+      Leave a Google Review
+    </a>
+
+    <p class="note">
+      Your review helps others discover and learn more
+      about our services.
+    </p>
+
+    <p class="footer">
+      Thank you for taking the time to share your experience.
+    </p>
+
+  </main>
+
+</body>
+</html>
